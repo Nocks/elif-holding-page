@@ -1,0 +1,91 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+
+header h1 {
+    color: #353531;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+
+.message-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem;
+}
+
+.message-title--first {
+    font-weight: 300;
+}
+
+.message-title--first,
+.message-details,
+.instagram a {
+    color: #f39291;
+}
+
+.message-title--second,
+.message-title--third {
+    color: #353531;
+    font-weight: 600;
+}
+
+.message-details {
+    font-size: 1.2rem;
+}
+
+.instagram a {
+    font-size: 1.2rem;
+}
+
+.main-content {
+    width: 100%;
+    
+}
+
+.main-content .brand-image {
+    background-image: url('../img/jean-philippe-delberghe-unsplash_640X960.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 40vh ;
+    width: 100%;
+}
+
+.left {
+    background-color: rgba(250, 245, 245, 0.4);
+}
+
+.right {
+    width: 100%;
+    height: 100%;
+}
+
+.right .brand-image {
+    background-image: url('../img/jean-philippe-delberghe-unsplash_1920X2880.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    .left {
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
+    .message {
+        align-content: center;
+    }
+}
